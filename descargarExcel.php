@@ -40,10 +40,10 @@ $i =1;
     while ($pais = mysqli_fetch_array($DataPaises)) { ?>
     <tbody>
         <tr>
-            <td class='style_tbody'><?php echo $i++; ?></td>
-            <td class='style_tbody'><?php echo $pais['countryName']; ?></td>
-            <td class='style_tbody'><?php echo $pais['capital']; ?></td>
-            <td class='style_tbody'><?php echo $pais['continentName'] ; ?></td>
+            <td><?php echo $i++; ?></td>
+            <td><?php echo $pais['countryName']; ?></td>
+            <td><?php echo $pais['capital']; ?></td>
+            <td><?php echo $pais['continentName'] ; ?></td>
         </tr>
     </tbody>
     
