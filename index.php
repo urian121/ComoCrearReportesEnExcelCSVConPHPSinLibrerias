@@ -34,7 +34,7 @@
 
 <div class="container mt-5 p-5">
 <h4 class="text-center">
-    Cómo Exportar Exccel desde PHP sin Libreria Fácil..! 
+    Cómo crear un Reporte en Excel desde PHP sin uso de Librerias Fácil..! 
   </h4>
   <hr>
 
